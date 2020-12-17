@@ -174,6 +174,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	p strong {
+		font-weight: 500;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
@@ -188,6 +192,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		text-align: center;
 	}
 
 		h1.major {
@@ -2517,6 +2522,15 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 2em;
+		}
+
+		.fa-blog {
+			font-size: 2em;
+		}
+
+		.icon-contact {
+			font-size: 1em;
 		}
 
 		.icon.major {
@@ -2629,6 +2643,24 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+	}
+
+	.landing-button {
+		justify-content: center;
+	}
+
+	.landing-button a{
+		width: 250px;
+		margin-top: 10px;
+	}
+
+	.icons {
+		text-align: center;
+	}
+
+	/* Icons located in contact page */
+	.icons.icons-contact {
+		text-align: left;
 	}
 
 		ul li {
@@ -3881,7 +3913,15 @@ input, select, textarea {
 	}
 
 		#intro p {
+			font-size: 1.5em;
+			color: white;
+			margin: 0 0 1em 0;
+			text-align: center;
+		}
+
+		#intro .work-status {
 			font-size: 1.25em;
+			color: rgba(255, 255, 255, 0.55);
 		}
 
 			@media screen and (max-width: 980px) {
