@@ -1981,6 +1981,45 @@ input, select, textarea {
 					opacity: 0.1;
 				}
 
+		/* Success message */
+		.alert {
+			width: 100%;
+			/* max-width: 500px; */
+			text-align: center;
+			padding: 10px;
+			margin: 0 auto;
+			color: white;
+			border-radius: 8px;
+		}
+
+		.alert--success {
+			background-color: rgb(211, 250, 153);
+			color: black;
+			animation: status 4s ease forwards;
+		}
+
+		.alert--error {
+			background-color: rgb(250, 129, 92);
+			color: white;
+			animation: status 4s ease forwards;
+		}
+
+		@keyframes status {
+			0%{
+				opacity: 1;
+				pointer-events: all;
+			}
+			90%{
+				opacity: 1;
+				pointer-events: all;
+			}
+			100%{
+				opacity: 0;
+				pointer-events: none;
+				visibility: hidden;
+			}
+		}
+
 /* Features */
 
 	.features {
