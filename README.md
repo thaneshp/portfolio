@@ -35,3 +35,4 @@ Reach out to me on one of the following places!
 - Website: https://thanesh.io/
 - Email: thanesh.pannirselvam@gmail.com
 - LinkedIn: linkedin.com/in/thanesh-pannirselvam
+- Blog: https://blog.thanesh.io/
